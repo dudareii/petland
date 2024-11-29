@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Botao {
+  background-color: #ffee00;
+  height: 60px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-family: "Rammetto One";
+}
+
+.cabecalho {
+  background-color: #00057d;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.artigo {
+  display: flex;
+  justify-content: center;
+  background-color: #0007d6;
+  padding: 30px;
+  margin: 10px;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: "Rammetto One";
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Rammetto One";
+}
+
+.artigo1 {
+  background-color: #0007d6;
+  padding: 30px;
+  display: flex;
+}
+
+.vet {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.caixa {
+  display: flex;
+  justify-content: center;
+  background-color: #ffee00;
+  padding: 10px;
+}
+.caixa1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.caixa2 {
+  display: flex;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b6bfff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(0, 3, 62);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff8ac;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu {
+  width: 40px;
+}

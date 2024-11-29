@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.Botao {
+  background-color: #ffe600;
+  height: 70px;
+  padding: 13px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  font-family: "Rammetto One";
+  color: #000241;
+}
+
+.cabecalho {
+  background-color: #00057d;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+.caixa1 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b6bfff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+.dropdown-content a {
+  color: rgb(0, 3, 62);
+  padding: 15px 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff8ac;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu {
+  width: 40px;
+}
+
+.artigo {
+  display: flex;
+  justify-content: center;
+  background-color: #2600ff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Rammetto One";
+  color: #fffef0;
+  text-align: center;
+}
+
+.caixa {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe600;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Rammetto One";
+  color: #000241;
+  text-align: center;
+}
+
+.artigo1 {
+  background-color: #2600ff;
+  padding: 50px;
+  display: flex;
+}
+
+.secao1 {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.vet {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.camila {
+  width: 194px;
+  border-radius: 10px;
+}
+
+.lucas {
+  width: 206px;
+  border-radius: 10px;
+}
+
+.bruna {
+  width: 203px;
+  border-radius: 10px;
+}
+
+h4 {
+  font-size: 15px;
+  font-family: "Rammetto One";
+  color: #fffdf1;
+}
+
+.caixa5 {
+  background-color: #ffe600;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quemsomos {
+  background-image: url("../imagens/background-img\ \(1\).png");
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+.cat {
+  width: 700px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.caixa6 {
+  background-color: #2600ff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.camera {
+  background-image: url("../imagens/background-img.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px;
+  gap: 30px;
+}
+
+.secao3 {
+  background-color: #2600ff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  align-items: center;
+}
+
+.cat1 {
+  width: 400px;
+  height: 200px;
+}
+
+p {
+  font-family: Arimo;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 600px;
+}
+
+.roda-pe {
+  background-color: #000241;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.caixa8 {
+  display: flex;
+  justify-content: end;
+}
+
+h2 {
+  width: 500px;
+}
